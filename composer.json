@@ -1,0 +1,26 @@
+{
+    "name": "collegefb/web",
+    "description": "Public website of the CollegeFB project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "javiyt",
+            "email": "me@javi.yt"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "~2.4",
+        "slimcontroller/slimcontroller": "~0.4",
+        "dogancelik/slim-json": "~0.2",
+        "slim/views": "~0.1",
+        "twig/twig": "~1.16",
+        "collegefb/collegefb": "~1.2",
+        "lusitanian/oauth": "~0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "CollegeFBWeb\\": "src/"
+        }
+    }
+}
