@@ -9,7 +9,8 @@ class BootstrapApp
     public function getApp($app_to_run, Container $container)
     {
         $app_to_run = '\\CollegeFBWeb\\Applications\\' . ucfirst(strtolower($app_to_run));
-        if (class_exists($app_to_run)) {
+
+        if (class_exists($app_to_run) && in_array('CollegeFBWeb\Applications\ApplicationInterface', class_implements($app_to_run))) {
             return (new $app_to_run)->getApp($container);
         }
 

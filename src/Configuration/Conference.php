@@ -4,7 +4,7 @@ namespace CollegeFBWeb\Configuration;
 
 use Pimple\Container;
 
-class Conference
+class Conference implements ConfigurationInterface
 {
     public function getConfiguration(Container $container, array $options)
     {

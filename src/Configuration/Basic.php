@@ -5,7 +5,7 @@ namespace CollegeFBWeb\Configuration;
 use Pimple\Container;
 use MongoClient;
 
-class Basic
+class Basic implements ConfigurationInterface
 {
     public function getConfiguration(Container $container, array $options)
     {

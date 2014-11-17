@@ -4,7 +4,7 @@ namespace CollegeFBWeb\Applications;
 
 use Pimple\Container;
 
-class Web
+class Web implements ApplicationInterface
 {
     public function getApp(Container $container)
     {
