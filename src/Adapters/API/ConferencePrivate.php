@@ -25,6 +25,7 @@ class ConferencePrivate extends AdapterAbstract
         'rss_football'          => 'rss_football',
         'twitter_football'      => 'twitter_football',
         'facebook_football'     => 'facebook_football',
+        'youtube_football'      => 'youtube_football',
         'organization'          => 'organization',
     );
 }

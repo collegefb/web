@@ -87,6 +87,18 @@ class College
             'type' => 'url',
             'label' => 'RSS Football',
         ),
+        'facebook_football'   => array(
+            'type' => 'url',
+            'label' => 'Facebook Football',
+        ),
+        'twitter_football'    => array(
+            'type' => 'url',
+            'label' => 'Twitter Football',
+        ),
+        'youtube_football'    => array(
+            'type' => 'url',
+            'label' => 'YouTube Football',
+        ),
         'home_stadium'        => array(
             'type'  => 'text',
             'label' => 'Stadium',

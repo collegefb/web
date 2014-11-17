@@ -22,6 +22,7 @@ class Conference extends AdapterAbstract
         'football_url'          => 'football_url',
         'twitter_football'      => 'twitter_football',
         'facebook_football'     => 'facebook_football',
+        'youtube_football'      => 'youtube_football',
         'organization'          => 'organization',
     );
 }

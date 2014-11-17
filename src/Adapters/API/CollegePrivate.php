@@ -15,6 +15,7 @@ class CollegePrivate extends AdapterAbstract
         'conference_division'   => 'conference_division',
         'division'              => 'division',
         'facebook'              => 'facebook',
+        'facebook_football'     => 'facebook_football',
         'fbs_since'             => 'fbs_since',
         'first_played'          => 'first_played',
         'first_season'          => 'first_season',
@@ -33,8 +34,10 @@ class CollegePrivate extends AdapterAbstract
         'stadium_surface'       => 'stadium_surface',
         'state'                 => 'state',
         'twitter'               => 'twitter',
+        'twitter_football'      => 'twitter_football',
         'url'                   => 'url',
         'website'               => 'website',
         'youtube'               => 'youtube',
+        'youtube_football'      => 'youtube_football',
     );
 }

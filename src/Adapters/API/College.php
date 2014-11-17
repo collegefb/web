@@ -14,6 +14,7 @@ class College extends AdapterAbstract
         'conference_division'   => 'conference_division',
         'division'              => 'division',
         'facebook'              => 'facebook',
+        'facebook_football'     => 'facebook_football',
         'first_season'          => 'first_season',
         'football'              => 'football',
         'head_coach'            => 'head_coach',
@@ -27,7 +28,9 @@ class College extends AdapterAbstract
         'stadium_capacity'      => 'stadium_capacity',
         'stadium_surface'       => 'stadium_surface',
         'twitter'               => 'twitter',
+        'twitter_football'      => 'twitter_football',
         'website'               => 'website',
         'youtube'               => 'youtube',
+        'youtube_football'      => 'youtube_football',
     );
 }

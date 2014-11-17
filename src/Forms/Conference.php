@@ -60,6 +60,10 @@ class Conference
             'type' => 'url',
             'label' => 'Facebook Football',
         ),
+        'youtube_football'  => array(
+            'type' => 'url',
+            'label' => 'YouTube Football',
+        ),
         'organization'      => array(
             'type'      => 'text',
             'options'   => array(
