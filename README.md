@@ -1,6 +1,6 @@
 CollegeFB/Web
 ===
-Application using [Slim framework](https://github.com/slim/slim) and [Slimcontroller](https://github.com/slimcontroller/slimcontroller) package to build the website that uses the [CollegeFB](https://github.com/collegefb/collegefb) logic.
+Application using [Slim framework](https://github.com/codeguy/Slim) and [Slimcontroller](https://github.com/fortrabbit/slimcontroller) package to build the website that uses the [CollegeFB](https://github.com/collegefb/collegefb) logic.
 
 To get it working you need to create a public file and set inside the following code
 
