@@ -31,6 +31,6 @@ class College extends Colleges
 
         $id_college = func_get_arg(0);
 
-        $this->renderResult($service('RemoveCollege')->run(array('college_id' => $id_college)));
+        $service('RemoveCollege')->run(array('college_id' => $id_college));
     }
 }

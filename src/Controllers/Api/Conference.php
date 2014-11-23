@@ -31,6 +31,6 @@ class Conference extends Conferences
 
         $id_conference = func_get_arg(0);
 
-        $this->renderResult($service('RemoveConference')->run(array('conference_id' => $id_conference)));
+        $service('RemoveConference')->run(array('conference_id' => $id_conference));
     }
 }
