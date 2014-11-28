@@ -10,7 +10,7 @@ class Index extends \SlimController\SlimController
 
         $this->render('index/home', array(
             'news'            => $this->app->container['settings']['di']['news_adapter_private']->convert($news_service('listNews')->run(array(
-                'origin'      => 'organization',
+                'origin'      => array('organization', 'conference_football_rss'),
                 'limit'       => 25,
             ))),
         ));
